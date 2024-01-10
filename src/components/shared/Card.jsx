@@ -3,7 +3,6 @@ function Card({ children, reverse }) {
   return (
     <div className={`card ${reverse && 'reverse'}`}>{children}</div>
   )
-  
   // Conditional styling
 //   return (
 //     <div className='card' style={{
